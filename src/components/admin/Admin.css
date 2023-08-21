@@ -1,0 +1,172 @@
+.sidebar {
+    width: 275px !important;
+    background: #9b9bff;
+    color: white;
+    height: 1310px;
+    float: left;
+}
+.sidebar-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.sidebar-links ul{
+    list-style: none;
+}
+.sidebar-links ul li {
+    padding: 40px 0px 0px 0px;
+}
+.header-top {
+    background-color: #6a6ae9;
+    color: white;
+    padding: 5px;
+}
+.dashboard-head a{
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+.dashboard-head a:hover{
+    color: white;
+}
+.admin-header-text p {
+    text-align: center;
+    margin: 2px 0px 0px 0px;
+    cursor: pointer;
+}
+.admin-header-text img {
+    width: 50px;
+    height: 45px;
+    border-radius: 30px;
+    margin: 5px 0px 0px 0px;
+}
+.admin-header-text {
+    display: flex;
+    justify-content: end;
+}
+.dropdown-menu{
+    left: -5px !important;
+}
+.dropdown-toggle{
+    color: white !important;
+}
+.dashboard-icon {
+    border: 1px solid #000;
+    border-radius: 20px;
+    text-align: center;
+    height: 150px;
+    width: 304px;
+    margin: 30px 0px 0px 35px;
+}
+.icon-head {
+    background: #2bf6b1;
+    border-radius: 20px 20px 0px 0px;
+    height: 82px;
+}
+.icon-head h4 {
+    font-size: 38px;
+    color: white;
+    padding: 16px 0px 0px 0px;
+    font-weight: 700;
+}
+.icon-body {
+    background: #70aff0;
+    height: 66px;
+    border-radius: 0px 0px 20px 20px;
+}
+.icon-body p {
+    font-size: 37px;
+    font-weight: 800;
+    color: #ff4364;
+}
+.student-registration-heading h1 {
+    text-align: center;
+    font-size: 43px;
+    font-weight: 800;
+    color: blue;
+}
+.student-registration-heading p {
+    font-size: 38px;
+    font-weight: 600;
+    color: #756a6a;
+    text-align: center;
+}
+.student-registration-form button {
+    margin: 13px 10px 10px 411px;
+    width: 178px;
+}
+.student-registration-heading {
+    width: 50%;
+    margin: 21px 0px 0px 250px;
+}
+.student-form {
+    background-color: aliceblue;
+    height: 1237px;
+}
+.footer {
+    background-color: #6a6ae9;
+    display: flow-root;
+}
+.footer-text p{
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+.course-form{
+    width: 50%;
+    margin: 21px 0px 0px 250px;
+}
+.course-form h1{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 800;
+    color: blue;
+}
+.course-form button{
+    width: 100%;
+    margin-top: 20px;
+}
+.staff-form{
+    width: 50%;
+    margin: 21px 0px 0px 250px;
+}
+.staff-form h1{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 800;
+    color: blue;
+}
+.staff-form button{
+    width: 100%;
+    margin-top: 20px;
+}
+.gallery-images-add{
+    width: 50%;
+    margin: 21px 0px 0px 250px; 
+}
+.gallery-images-add h1{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 800;
+    color: blue;
+}
+.gallery-images-add button{
+    width: 100%;
+    margin-top: 20px;
+}
+.table-of-enquries {
+    margin: 50px;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:992px){
+    .sidebar {
+        width: 100% !important;
+        
+    }
+    .dashboard-icon {
+        margin: 30px 0px 0px 9px;
+    }
+}

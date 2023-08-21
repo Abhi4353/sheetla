@@ -1,0 +1,291 @@
+/* CSS for top navbar at header.js*/
+.top-nav{
+  display: flex; 
+  background-color: #efedea;
+}
+.header-logo {
+  height: 100px;
+  margin: 11px 0px 0px 60px;
+}
+.header-text h1 {
+  color: red;
+  font-weight: bold;
+  font-family: auto;
+  font-size: 68px;
+}
+.header-text p {
+  color: #000066;
+  font-size: 15px;
+  font-family: auto;
+}
+.header-contact-info {
+  display: grid;
+  font-size: 16px;
+  padding: 12px;
+  grid-gap: 10px;
+}
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  gap: 150px;
+}
+.navbar-nav a{
+  font-weight: 500;
+}
+.crousel-image {
+  height: 500px;
+}
+.enroll-home-form {
+  background: #acc8e0;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.enroll-home-form h1 {
+  color: #fff;
+  font-weight: 700;
+}
+.enroll-here {
+  background: aliceblue;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.enroll-form {
+  padding: 30px 110px 30px 110px;
+}
+.enroll-form button {
+  width: 100%;
+  margin-top: 25px;
+}
+.enroll-image img {
+  height: 410px;
+  width: 670px;
+  border-radius: 20px;
+  margin: 5px;
+}
+.chairman-heading {
+  background: #0d6efd;
+  color: white;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+}
+.chairman-image img {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  margin: 80px;
+}
+.chairman-message {
+  display: flex;
+}
+.chairman-message-display {
+  font-size: 21px;
+  padding: 68px 10px 10px 0px;
+}
+.chairman-message-display a{
+  text-decoration: none;
+}
+.single-image img {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  margin: 22px;
+}
+.gallery-button {
+  display: flex;
+  justify-content: center;
+  margin: 19px 0px 20px 0px;
+}
+.gallery-button button {
+  width: 19%;
+}
+.footer-div{
+  background-color: #5898cf;
+}
+.footer-logo img {
+  height: 100px;
+  width: 121px;
+  margin: 15px;
+}
+.footer-connect {
+  color: white;
+  margin: 20px 0px 0px 0px;
+}
+.footer-connect a{
+  text-decoration: none;
+  color: white;
+}
+.footer-address{
+  margin: 20px 0px 0px 0px;
+ color: white;
+}
+
+.footer-connect a:hover{
+  color: white;
+}
+.login-page{
+  background-color: aliceblue;
+}
+.login-form {
+  display: flex;
+  justify-content: center;
+  padding: 46px 0px 56px 0px;
+}
+.login-form h1 {
+  color: blue;
+  font-weight: 700;
+  font-size: 38px;
+  margin: 0px 0px 25px 0px;
+}
+.login-form a{
+  text-decoration: none;
+}
+.login-form button{
+  margin: 10px 0px 10px 0px;
+}
+.about-us-main-component {
+  border: 1px solid #000;
+  margin: 40px 0px 40px 0px;
+  border-radius: 90px 0px 90px 0px;
+}
+.about-us-main-component h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 10px 0px 0px 0px;
+  font-weight: 700;
+  color: blue;
+}
+.display-complete-courses img {
+  height: 300px;
+  width: -webkit-fill-available;
+  border-radius: 10px;
+  margin: 22px;
+}
+.display-complete-courses {
+  width: auto;
+  height: 615px;
+  margin: 30px 10px 30px 10px;
+  border-radius: 22px;
+  /* border: 1px solid #000; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.course-info {
+  text-align: center;
+}
+.container-fluid.course-name {
+  background: #0d6efd;
+  color: white;
+  text-align: center;
+}
+.course-info h5 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.staff-details img {
+  height: 254px;
+  width: 250px;
+  border-radius: 10px;
+  margin: 27px;
+}
+.staff-details{
+  width: fit-content;
+  height: auto;
+  margin: 30px 10px 30px 10px;
+  border-radius: 22px;
+  /* border: 1px solid #000; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.staff-detail h3 {
+  font-size: 25px;
+  /* margin: 10px 10px 10px 15px; */
+  padding: 10px 8px 16px 9px;
+  font-style: oblique;
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS for the main navigation bar */
+
+
+@media screen and (min-width:320px) and (max-width:992px){
+  .top-nav {
+    display: flex;
+    background-color: #efedea;
+    padding: 7px 0px 2px 0px;
+}
+  .header-logo {
+    height: 40px;
+    margin: auto;
+  }
+  .header-text{
+    margin: 0px 0px 0px 10px;
+  }
+  .header-text h1 {
+    font-family: auto;
+    font-size: 28px;
+  }
+  .header-text p {
+    font-size: 5px;
+    margin: -11px 0px 10px 7px;
+    font-family: inherit;
+}
+  .header-contact-info {
+    display: none;
+}
+  .navbar-expand-lg .navbar-nav {
+    display: contents;
+    font-size: 10px;
+}
+.crousel-image {
+  height: 300px;
+}
+.enroll-home-form {
+  background: #acc8e0;
+  padding-left: 30px;
+
+}
+.enroll-form {
+  padding: 30px 50px 30px 35px;
+}
+.enroll-image img {
+  height: 376px;
+  width: 339px;
+  margin-top: 39px;
+}
+.chairman-message {
+  display: block;
+}
+.chairman-image img {
+  height: 376px;
+  width: 352px;
+  margin: 60px 0px 0px 0px;
+}
+.chairman-message-display {
+  font-size: 19px;
+  padding: 34px 10px 10px 10px;
+}
+.single-image img {
+  height: 300px;
+  width: 300px;
+}
+.gallery-button {
+  margin: 19px 0px 20px 19px;
+}
+.gallery-button button {
+  width: 75%;
+}
+.footer-address p{
+  font-size: 10px;
+}
+.about-us-main-component {
+  border: none;
+  margin: 40px 0px 40px 0px;
+}
+}
