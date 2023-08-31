@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Backend_URL } from "../../../../config/config";
+import axios from "axios";
 
 const Studentregister = () => {
   const [show, setShow] = useState(true);
@@ -37,7 +39,32 @@ const Studentregister = () => {
   }
 
   const addStudentData = async() =>{
-    
+    const res = await axios.post(`${Backend_URL}/registerstudent`,{
+      FirstName : firstName,
+      LastName : lastName,
+      Gender : gender,
+      DateOfBirth : dateOfBirth,
+      Phone : phone,
+      Email : email,
+      Adhaar : adhaar,
+      Course : course,
+      StudentPic : studentPic,
+      FatherName : fatherName,
+      MotherName : motherName,
+      Address : address,
+      MatricPassYear : matricPassYear,
+      MatricPassSchool : matricPassSchool,
+      MatricPassBoard :matricPassBoard,
+      MatricPassPercentage : matricPassPercentage,
+      MatricPassCertificate : matricPassCertificate,
+      HigherPassYear : higherPassYear,
+      HigherPassSchool : higherPassSchool,
+      HigherPassStream : higherPassStream,
+      HigherPassBoard : higherPassBoard,
+      HigherPassPercentage : higherPassPercentage,
+      HigherPassCertificate : higherPassCertificate,
+      AdhaarPic : adhaarPic
+    })
   }
   return (
     <>
