@@ -5,18 +5,16 @@ import { Backend_URL } from '../../../../config/config';
 import { useParams } from 'react-router-dom';
 const Newenquries = () => {
     const[data,setData]=useState([]);
-     const id = useParams();
+     const {_id} = useParams();
     const getenquirydata = async() =>{
       const res = await axios.get(`${Backend_URL}/getenquiry`)
       setData(res.data)
     }
 
     const setStatus = async() => {
-        const res = await axios.post(`${Backend_URL}/updateenquiry?id=${id}`,{
-            Status : false
-        })
+        console.log("ID Is ",_id)
+        const res = await axios.post(`${Backend_URL}/updateenquiry?id=${_id}`)
         getenquirydata();
-
     }
 
     useEffect(()=>{
@@ -49,7 +47,7 @@ const Newenquries = () => {
                                           <td>{ele.Email}</td>
                                           <td>{ele.Mobile}</td>
                                           <td>{ele.Course}</td>
-                                          <td><button type='button' className='btn btn-primary' onClick={setStatus}>Mark as Read</button></td>
+                                          <td><button type='button' className='btn btn-primary' onClick={(e)=>setStatus(e,ele?._id)}>Mark as Read</button></td>
                                           </tr>
                                         </tbody>
                                     ))}
